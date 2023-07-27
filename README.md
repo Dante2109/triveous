@@ -8,5 +8,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 2.News App
 ![News Page](src/Assets/Images/ss2.png)
 
-## 3.Sing;e News Article
+## 3.Single News Article
 ![Single News Article](src/Assets/Images/ss3.png)
