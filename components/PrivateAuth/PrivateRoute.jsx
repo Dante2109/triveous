@@ -6,7 +6,7 @@ const PrivateRoute = ({children}) => {
     const router=useRouter()
     useEffect(()=>{
         if(!User){
-            router.push("/login")
+            router.push("/")
         }
     },[router,User])
   return (User?children:null)

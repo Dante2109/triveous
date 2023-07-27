@@ -20,6 +20,9 @@ false
             SetUser(false)
         }
     })
+    return()=>{
+      authentication()
+    }
 },[])
   return <AuthContext.Provider value={{User,SetUser,authUser,setAuthUser}}>{children}</AuthContext.Provider>
 }
